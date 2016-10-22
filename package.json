@@ -1,19 +1,40 @@
 {
-  "name": "adaptive-barbershop",
-  "version": "1.0.0",
-  "description": "adaptive barbershop",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "5595-pink",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Личный проект «Пинк» от HTML Academy",
+  "author": "Александр Герасимов",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Startedd/Adaptive-barbershop.git"
+    "url": "git@github.com:htmlacademy-adaptive/5595-pink.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Startedd/Adaptive-barbershop/issues"
+    "url": "https://github.com/htmlacademy-adaptive/5595-pink/issues"
   },
-  "homepage": "https://github.com/Startedd/Adaptive-barbershop#readme"
+  "homepage": "https://github.com/htmlacademy-adaptive/5595-pink",
+  "devDependencies": {
+    "autoprefixer": "6.4.1",
+    "browser-sync": "2.15.0",
+    "gulp": "3.9.1",
+    "gulp-less": "3.1.0",
+    "gulp-plumber": "1.1.0",
+    "gulp-postcss": "6.2.0",
+    "@htmlacademy/editorconfig-cli": "0.0.7"
+  },
+  "scripts": {
+    "test": "editorconfig-cli",
+    "build": "gulp style",
+    "start": "gulp serve"
+  },
+  "editorconfig-cli": [
+    "*.html",
+    "*.json",
+    "*.js",
+    "js/**/*.js",
+    "img/**/*.svg",
+    "less/**/*.less"
+  ],
+  "engines": {
+    "node": "6.5"
+  }
 }
