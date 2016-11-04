@@ -1,0 +1,15 @@
+@import 'variables.scss';
+
+body {
+	padding-left: 10px;
+}
+
+a {
+ 	margin-left: $big-margin;
+    font-size: 15px;
+	text-decoration: none;
+	display: flex;
+	color: black;
+	background: orange;
+}
+
