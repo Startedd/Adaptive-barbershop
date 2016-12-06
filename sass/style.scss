@@ -6,10 +6,12 @@ body {
 
 a {
  	margin-left: $big-margin;
-    font-size: 15px;
+    font-size: 36px;
 	text-decoration: none;
 	display: flex;
-	color: black;
+	color: #6a0046 !important;
 	background: orange;
+    animation: opacify 0.4s !important;
+    transform: translateY(50px);
 }
 

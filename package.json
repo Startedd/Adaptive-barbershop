@@ -1,14 +1,16 @@
 {
-  "name": "Snipcart",
+  "name": "First-workflow-model",
   "version": "0.0.1",
   "description": "Snipcart Frontend Gulp frontend workflow",
   "author": "Snipcart",
   "devDependencies": {
     "browser-sync": "^2.17.5",
     "coffee-script": "1.10.x",
+    "css-mqpacker": "^5.0.1",
     "gulp": "~3.9.x",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.1.1",
     "gulp-plumber": "^1.1.0",
     "gulp-postcss": "^6.2.0",
     "gulp-rename": "^1.2.2",
